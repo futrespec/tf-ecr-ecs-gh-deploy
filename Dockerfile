@@ -1,4 +1,4 @@
-FROM python:3.8-slim as release
+FROM python:3.13.0rc1-slim as release
 
 WORKDIR /app
 
